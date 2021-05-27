@@ -1,0 +1,46 @@
+.blog_post {
+  width: 60vw;
+  margin-top: 20px;
+}
+.blog_post_con {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+.author {
+  display: flex;
+  justify-content: flex-end;
+}
+.head > h1 {
+  font-weight: 800;
+  font-size: 20;
+}
+.search-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.MuiInputBase-formControl {
+  width: 40vw;
+}
+.MuiTextField-root > label {
+  margin-top: -10px;
+}
+.create > label {
+  margin-right: 10px;
+}
+.create {
+  display: flex;
+  margin: 10px 0;
+  flex-direction: column;
+}
+.create > textarea {
+  padding: 10px;
+}
